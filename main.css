@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: blue;
+    padding: 16px 0;
+    color: white;
+    display: flex;
+    border-bottom: 16px solid darkblue;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: lightgray;
+    padding: 24px 0;
+    font-size: 18px;
+}
+
+button {
+    width: 50%;
+    padding: 16px 0;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 24px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    width: 100px;
+    margin-left: 24px;
+}
+
+.form-campo input {
+    height: 25px;
+}
+
