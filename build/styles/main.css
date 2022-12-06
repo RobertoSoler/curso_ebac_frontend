@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+.block {
+  display: block;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   background-color: #f5f6fa;
@@ -64,9 +81,9 @@ section {
   text-decoration: none;
 }
 .product-button:hover {
-  background-color: #4cd137;
+  background-color: lighten(#color[buttonFundoColor], 10%);
 }
-@media screen and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 80%;
   }
@@ -75,7 +92,7 @@ section {
     column-gap: 3%;
   }
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .products {
     display: block;
   }
